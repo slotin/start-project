@@ -1,0 +1,16 @@
+//  Импорт файлов
+
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'base';
+@import 'typography';
+@import 'sprite';
+
+@import 'elements/form-elements';
+@import 'elements/buttons';
+
+@import 'block/header';
+@import 'block/footer';
+
+@import 'pages/home';
