@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-## Что есть в стартовом проекте
-
-* Препроцессор SCSS
-* Autoprefixer
-* Простой [шаблонизатор](https://www.npmjs.com/package/gulp-file-include) для HTML
-* [Browser Sync](https://www.browsersync.io) (Livereload)
-* Генератор спрайтов
-* Минификация ресурсов
-* Сжатие графики
-
-## Что для этого нужно
-
-Установить [NodeJS](https://nodejs.org/en/)  
-Плагин для редактора [Editorconfig](http://editorconfig.org)  
-
-## Старт проекта
-
-Склонировать проект  
-В консоле перейти в папку с проектом и установить зависимости
-
 ```bash
 npm install
 npm install -g gulp-cli (если не установлен)
@@ -72,4 +51,3 @@ sass/
 
 =======
 # start-project
->>>>>>> 15bf1a42b62945bcc02bc4daa6d774c5f44c883e

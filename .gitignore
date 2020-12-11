@@ -1,8 +1,8 @@
-build/fonts
-build/styles
-build/images
-build/scripts
-build/*.html
+#build/fonts
+#build/styles
+#build/images
+#build/scripts
+#build/*.html
 
 node_modules/
 bower_components/

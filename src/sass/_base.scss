@@ -18,6 +18,7 @@ body {
   font-weight: $font-weight;
 	font-size: $font-size;
 	line-height: $line-height;
+  overflow-x: hidden;
 }
 
 a {
@@ -41,6 +42,7 @@ section {
 }
 
 .page-container {
+  width: 100%;
   max-width: $container-width;
   margin-left: auto;
   margin-right: auto;
@@ -50,4 +52,46 @@ section {
 
 .icon {
   display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.accent {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: -25px;
+    width: 30px;
+    height: 3px;
+    background-color: $brand-red;
+  }
+
+  &--center {
+    margin-bottom: 50px;
+
+    &:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.decor {
+  position: absolute;
+
+  &.right {
+    left: auto;
+    right: 0;
+  }
+
+  &.bottom {
+    top: auto;
+    bottom: -20%;
+  }
 }

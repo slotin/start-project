@@ -1,0 +1,122 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-top: 50px;
+  position: relative;
+
+  video {
+    width: auto;
+    min-height: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .js-mute {
+    position: absolute;
+    top: 50px;
+    left: auto;
+    right: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 6px;
+    }
+  }
+
+  .overlay {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .page-container {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: center;
+
+    .column {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 120%;
+      text-align: left;
+      margin-left: 0;
+      position: relative;
+      margin-bottom: .8em;
+      padding-bottom: 10px;
+
+      &:after {
+        position: absolute;
+        content: '';
+        top: auto;
+        left: 0;
+        bottom: -10px;
+        width: 30px;
+        height: 3px;
+        background-color: $brand-red;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+
+    .social-buttons {
+      position: absolute;
+      top: auto;
+      left: $container-padding;
+      bottom: 8%;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+        li {
+          margin-right: 30px;
+
+          a {
+            svg {
+              path {
+                fill: #fff;
+                transition: .3s;
+              }
+            }
+
+            &:hover {
+              svg {
+                path {
+                  fill: $brand-red;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,80 @@
 .page-footer {
-	position: relative;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+
+  .subfooter {
+    border-bottom: 1px solid rgba(14, 21, 80, .1);
+    padding-bottom: 42px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a:not(.logo) {
+      font-size: 14px;
+      font-weight: 600;
+      position: relative;
+      overflow: hidden;
+      padding-top: 8px;
+      padding-bottom: 8px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        background: $brand-red;
+        height: 2px;
+        width: 100%;
+        top: auto;
+        left: -100%;
+        bottom: 0;
+        transition: .3s;
+      }
+
+      &:hover:after {
+        left: 0%;
+      }
+    }
+  }
+
+  .social-buttons {
+    margin-right: auto;
+    margin-left: auto;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        margin-right: 30px;
+
+        a {
+          svg {
+            path {
+              fill: $link-color;
+              transition: .3s;
+            }
+          }
+
+          &:hover {
+            svg {
+              path {
+                fill: $brand-red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  p {
+    color: #AAADC6;
+    font-size: 16px;
+  }
 }

@@ -1,17 +1,32 @@
 {
-  "name": "start-frontend-project",
-  "version": "1.0.0",
-  "author": "redwon",
-  "license": "MIT",
+  "name": "html-cherkasy-region",
+  "version": "0.1.0",
+  "author": "sdi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slotin/start-project.git"
+    "url": "https://github.com/OleksandrShcherbinin/tourism_cherkasy_region"
+  },
+  "scripts": {
+    "build": "gulp build"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "^6.5.0",
+    "merge-stream": "^1.0.1",
+    "pump": "^3.0.0",
     "autoprefixer": "^7.1.6",
     "browser-sync": "^2.18.8",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
     "gulp-clean-css": "^3.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^1.1.0",
@@ -21,18 +36,11 @@
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
-    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sequence": "^0.4.6",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "gulp.spritesmith": "^6.5.0",
-    "merge-stream": "^1.0.1"
+    "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.12.6"
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1"
   }
 }

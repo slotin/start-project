@@ -1,5 +1,6 @@
-//  Импорт файлов
+// import files
 
+@import 'normalize';
 @import 'variables';
 @import 'functions';
 @import 'mixins';
@@ -9,8 +10,11 @@
 
 @import 'elements/form-elements';
 @import 'elements/buttons';
+@import 'elements/slick';
 
 @import 'block/header';
 @import 'block/footer';
+@import 'block/hero-section';
+@import 'block/all-trips';
 
 @import 'pages/home';
