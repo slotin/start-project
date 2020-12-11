@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home page</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="dist/main.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<header class="page-header">
+  <div class="page-container page-header__inner">
+    <a href="/">
+      <img src="/images/logo.png" alt="Logo">
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" class="active">Варто побачити</a>
+        </li>
+        <li>
+          <a href="#">Дозвілля</a>
+        </li>
+        <li>
+          <a href="#">Організація поїздки</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="languageswitcher">
+      <a
+        class="languageswitcher__link languageswitcher__link--active"
+        href="#"
+        lang="en">
+        <img class="languageswitcher__flag" src="/images/flag_en.png" width="25" height="13" alt="english" />
+        <span>English</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="hero-section">
+  <video autoplay muted loop id="video" controls>
+    <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm>
+    <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg>
+    <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+    <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
+  </video>
+  <div class="overlay"></div>
+  <div class="page-container">
+
+    <a href="#" class="js-mute">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.9 4.92125C0.9 3.81668 1.79543 2.92125 2.9 2.92125H5.19844C5.65258 2.92125 6.0932 2.76669 6.44783 2.48299L9.2753 0.221009C9.93007 -0.302802 10.9 0.163371 10.9 1.00188V3.64835L14.2636 0.284746C14.6151 -0.0667253 15.1849 -0.0667253 15.5364 0.284746C15.8879 0.636218 15.8879 1.20607 15.5364 1.55754L1.5364 15.5575C1.18492 15.909 0.615076 15.909 0.263604 15.5575C-0.087868 15.2061 -0.087868 14.6362 0.263604 14.2847L3.6271 10.9213H2.9C1.79543 10.9213 0.9 10.0258 0.9 8.92125V4.92125ZM7.24124 11.9942L10.9 8.33548V12.8406C10.9 13.6791 9.93007 14.1453 9.2753 13.6215L7.24124 11.9942Z" fill="white" />
+      </svg>
+      Sound off</a>
+    <div class="column">
+      <h1>Visit Cherkasy Region</h1>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+      <a href="#" class="btn cta">Приєднайся</a>
+    </div>
+
+    <div class="social-buttons">
+      <ul>
+        <li><a href="#appstore" target="_blank">
+            <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13 11.1743C12.6445 11.9216 12.4733 12.2558 12.0167 12.9166C11.3787 13.8395 10.4799 14.9876 9.36368 14.9978C8.37313 15.0068 8.11881 14.3857 6.77497 14.3919C5.42968 14.3988 5.14935 15.0088 4.16026 14.9999C3.04544 14.9896 2.19145 13.9521 1.55349 13.0305C-0.230354 10.4503 -0.417481 7.4228 0.682881 5.81296C1.46462 4.66974 2.69937 4.00137 3.85898 4.00137C5.04026 4.00137 5.78443 4.61621 6.76052 4.61621C7.70844 4.61621 8.28571 4 9.65123 4C10.6844 4 11.7775 4.53387 12.5571 5.45613C10.0038 6.78463 10.4192 10.2479 13 11.1743ZM8.26716 2.69908C8.74321 1.99791 9.10371 1.01166 8.97293 0C8.19589 0.0619383 7.28738 0.628117 6.75735 1.36661C6.27646 2.0384 5.8786 3.03259 6.03428 3.99899C6.8819 4.02758 7.75789 3.4471 8.26716 2.69908Z" fill="white" />
+            </svg>
+          </a></li>
+        <li><a href="#playmarket" target="_blank">
+            <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.22 0.491429L9.35333 1.23429C10.3533 1.85714 11 2.86285 11 4H9V3H8V4H6V3H5V4H3C3 2.86285 3.64667 1.86285 4.63333 1.24L3.76 0.491429C3.62667 0.377145 3.62667 0.200002 3.76 0.0857134C3.89333 -0.0285711 4.1 -0.0285711 4.23333 0.0857134L5.22667 0.931428C5.76 0.702859 6.36 0.571431 7 0.571431C7.63333 0.571431 8.23333 0.702859 8.76 0.931428L9.74667 0.0857134C9.88 -0.0285711 10.0867 -0.0285711 10.22 0.0857134C10.3533 0.200002 10.3533 0.377145 10.22 0.491429ZM0 5.9C0 5.402 0.446667 5 1 5C1.55333 5 2 5.402 2 5.9V10.1C2 10.598 1.55333 11 1 11C0.446667 11 0 10.598 0 10.1V5.9ZM3.66667 11.875C3.3 11.875 3 11.5938 3 11.25V5H11V5.9C11 5.402 11.4467 5 12 5C12.5533 5 13 5.402 13 5.9V10.1C13 10.598 12.5533 11 12 11C11.4467 11 11 10.598 11 10.1V11.25C11 11.5938 10.7 11.875 10.3333 11.875H9.66667V14.0625C9.66667 14.5813 9.22 15 8.66667 15C8.11333 15 7.66667 14.5813 7.66667 14.0625V11.875H6.33333V14.0625C6.33333 14.5813 5.88667 15 5.33333 15C4.78 15 4.33333 14.5813 4.33333 14.0625V11.875H3.66667Z" fill="white" />
+            </svg>
+          </a></li>
+        <li><a href="#facebook" target="_blank">
+            <svg width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4.65416 15H1.55082V7.5H0V4.9147H1.55082V3.36319C1.55082 1.25554 2.42688 0 4.91348 0H6.98464V2.58529H5.69059C4.7224 2.58529 4.65757 2.94695 4.65757 3.62078L4.65416 4.9147H7L6.72532 7.5H4.65416V15Z" fill="white" />
+            </svg>
+          </a></li>
+        <li><a href="#instagram" target="_blank">
+            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.5C0 5.57109 0 5.10663 0.0559821 4.71727C0.403339 2.30134 2.30134 0.403339 4.71727 0.0559821C5.10663 0 5.57109 0 6.5 0C7.42891 0 7.89337 0 8.28273 0.0559821C10.6987 0.403339 12.5967 2.30134 12.944 4.71727C13 5.10663 13 5.57109 13 6.5V7.5C13 8.42891 13 8.89337 12.944 9.28273C12.5967 11.6987 10.6987 13.5967 8.28273 13.944C7.89337 14 7.42891 14 6.5 14C5.57109 14 5.10663 14 4.71727 13.944C2.30134 13.5967 0.403339 11.6987 0.0559821 9.28273C0 8.89337 0 8.42891 0 7.5V6.5ZM6.5 3C4.56712 3 3 4.56712 3 6.5C3 8.43287 4.56712 10 6.5 10C8.43287 10 10 8.43287 10 6.5C10 4.56712 8.43287 3 6.5 3ZM6.5 8.6875C5.29425 8.6875 4.3125 7.70575 4.3125 6.5C4.3125 5.29338 5.29425 4.3125 6.5 4.3125C7.70575 4.3125 8.6875 5.29338 8.6875 6.5C8.6875 7.70575 7.70575 8.6875 6.5 8.6875ZM11 3.5C11 3.77614 10.7761 4 10.5 4C10.2239 4 10 3.77614 10 3.5C10 3.22386 10.2239 3 10.5 3C10.7761 3 11 3.22386 11 3.5Z" fill="white" />
+            </svg>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="text-section">
+  <div class="page-container text-center">
+    <h2 class="accent accent--center">Черкащина це місце сили!</h2>
+    <h3>Головне про регіон</h3>
+    <p>Тут коротко про головні особливості та перебіг становлення бренду</p>
+    <a href="#" class="btn cta">Айдентика Черкащини</a>
+  </div>
+  <img src="/images/decor_ident.svg" alt="ident" class="decor bottom right">
+</section>
+
+<section class="map">
+  <img src="/images/Mask Group.jpg" alt="map" width="100%">
+</section>
+
+<section class="sliders">
+  <div class="slider-wrapper page-container">
+    <div class="description-slider description-slider__1">
+      <div>
+        <h2 class="accent">Екотуризм</h2>
+        <div class="description">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </div>
+      </div>
+      <div>
+        <h2 class="accent">Lorem ipsum.</h2>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut consectetur eligendi fuga qui quibusdam repellat suscipit voluptatem. Laborum, saepe!
+        </div>
+      </div>
+      <div>
+        <h2 class="accent">Екотуризм</h2>
+        <div class="description">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </div>
+      </div>
+    </div>
+    <div class="images-slider images-slider__1">
+      <div>
+        <img src="/images/img_slide_1.jpg" alt="">
+      </div>
+      <div>
+        <img src="/images/img_slide_2.png" alt="">
+      </div>
+      <div>
+        <img src="/images/img_slide_1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="slider-wrapper page-container">
+    <div class="images-slider images-slider__2">
+      <div>
+        <img src="/images/img_slide_1.jpg" alt="">
+      </div>
+      <div>
+        <img src="/images/img_slide_2.png" alt="">
+      </div>
+    </div>
+    <div class="description-slider description-slider__2">
+      <div>
+        <h2 class="accent">Екотуризм</h2>
+        <div class="description">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+        </div>
+      </div>
+      <div>
+        <h2 class="accent">Lorem ipsum.</h2>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut consectetur eligendi fuga qui quibusdam repellat suscipit voluptatem. Laborum, saepe!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="all-trips">
+  <h2 class="accent accent--center text-center">Сплануйте свою подорож</h2>
+  <h5 class="text-center">Події на будь-який смак, по всій Черкащині</h5>
+  <div class="trip-list">
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+    <a href="#" class="trip-list__item" style="background-image: url(images/zamis.jpg);">
+      <span class="name">Крутий заміс</span>
+      <span class="date">10.11.2020</span>
+    </a>
+  </div>
+</section>
+
+<footer class="page-footer">
+  <div class="page-container">
+    <div class="subfooter">
+      <a href="#">Поділитися враженнями</a>
+      <a href="#">Додати #місцесили</a>
+      <a href="#" class="logo"><img src="/images/logo.png" alt="Logo"></a>
+      <a href="#">Стати партнером</a>
+      <a href="#">Контакти та інші питання</a>
+    </div>
+  </div>
+  <div class="social-buttons">
+    <ul>
+      <li><a href="#appstore" target="_blank">
+          <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 11.1743C12.6445 11.9216 12.4733 12.2558 12.0167 12.9166C11.3787 13.8395 10.4799 14.9876 9.36368 14.9978C8.37313 15.0068 8.11881 14.3857 6.77497 14.3919C5.42968 14.3988 5.14935 15.0088 4.16026 14.9999C3.04544 14.9896 2.19145 13.9521 1.55349 13.0305C-0.230354 10.4503 -0.417481 7.4228 0.682881 5.81296C1.46462 4.66974 2.69937 4.00137 3.85898 4.00137C5.04026 4.00137 5.78443 4.61621 6.76052 4.61621C7.70844 4.61621 8.28571 4 9.65123 4C10.6844 4 11.7775 4.53387 12.5571 5.45613C10.0038 6.78463 10.4192 10.2479 13 11.1743ZM8.26716 2.69908C8.74321 1.99791 9.10371 1.01166 8.97293 0C8.19589 0.0619383 7.28738 0.628117 6.75735 1.36661C6.27646 2.0384 5.8786 3.03259 6.03428 3.99899C6.8819 4.02758 7.75789 3.4471 8.26716 2.69908Z" fill="white" />
+          </svg>
+        </a></li>
+      <li><a href="#playmarket" target="_blank">
+          <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.22 0.491429L9.35333 1.23429C10.3533 1.85714 11 2.86285 11 4H9V3H8V4H6V3H5V4H3C3 2.86285 3.64667 1.86285 4.63333 1.24L3.76 0.491429C3.62667 0.377145 3.62667 0.200002 3.76 0.0857134C3.89333 -0.0285711 4.1 -0.0285711 4.23333 0.0857134L5.22667 0.931428C5.76 0.702859 6.36 0.571431 7 0.571431C7.63333 0.571431 8.23333 0.702859 8.76 0.931428L9.74667 0.0857134C9.88 -0.0285711 10.0867 -0.0285711 10.22 0.0857134C10.3533 0.200002 10.3533 0.377145 10.22 0.491429ZM0 5.9C0 5.402 0.446667 5 1 5C1.55333 5 2 5.402 2 5.9V10.1C2 10.598 1.55333 11 1 11C0.446667 11 0 10.598 0 10.1V5.9ZM3.66667 11.875C3.3 11.875 3 11.5938 3 11.25V5H11V5.9C11 5.402 11.4467 5 12 5C12.5533 5 13 5.402 13 5.9V10.1C13 10.598 12.5533 11 12 11C11.4467 11 11 10.598 11 10.1V11.25C11 11.5938 10.7 11.875 10.3333 11.875H9.66667V14.0625C9.66667 14.5813 9.22 15 8.66667 15C8.11333 15 7.66667 14.5813 7.66667 14.0625V11.875H6.33333V14.0625C6.33333 14.5813 5.88667 15 5.33333 15C4.78 15 4.33333 14.5813 4.33333 14.0625V11.875H3.66667Z" fill="white" />
+          </svg>
+        </a></li>
+      <li><a href="#facebook" target="_blank">
+          <svg width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.65416 15H1.55082V7.5H0V4.9147H1.55082V3.36319C1.55082 1.25554 2.42688 0 4.91348 0H6.98464V2.58529H5.69059C4.7224 2.58529 4.65757 2.94695 4.65757 3.62078L4.65416 4.9147H7L6.72532 7.5H4.65416V15Z" fill="white" />
+          </svg>
+        </a></li>
+      <li><a href="#instagram" target="_blank">
+          <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.5C0 5.57109 0 5.10663 0.0559821 4.71727C0.403339 2.30134 2.30134 0.403339 4.71727 0.0559821C5.10663 0 5.57109 0 6.5 0C7.42891 0 7.89337 0 8.28273 0.0559821C10.6987 0.403339 12.5967 2.30134 12.944 4.71727C13 5.10663 13 5.57109 13 6.5V7.5C13 8.42891 13 8.89337 12.944 9.28273C12.5967 11.6987 10.6987 13.5967 8.28273 13.944C7.89337 14 7.42891 14 6.5 14C5.57109 14 5.10663 14 4.71727 13.944C2.30134 13.5967 0.403339 11.6987 0.0559821 9.28273C0 8.89337 0 8.42891 0 7.5V6.5ZM6.5 3C4.56712 3 3 4.56712 3 6.5C3 8.43287 4.56712 10 6.5 10C8.43287 10 10 8.43287 10 6.5C10 4.56712 8.43287 3 6.5 3ZM6.5 8.6875C5.29425 8.6875 4.3125 7.70575 4.3125 6.5C4.3125 5.29338 5.29425 4.3125 6.5 4.3125C7.70575 4.3125 8.6875 5.29338 8.6875 6.5C8.6875 7.70575 7.70575 8.6875 6.5 8.6875ZM11 3.5C11 3.77614 10.7761 4 10.5 4C10.2239 4 10 3.77614 10 3.5C10 3.22386 10.2239 3 10.5 3C10.7761 3 11 3.22386 11 3.5Z" fill="white" />
+          </svg>
+        </a></li>
+    </ul>
+  </div>
+  <p>© Департамент регіонального розвитку Черкаської ОДА 2020.</p>
+  <p>Черкащина – місце сили</p>
+</footer>
+
+<script src="scripts/load-scripts.js"></script>
+<script src="scripts/main.min.js"></script>
+</body>
+</html>
